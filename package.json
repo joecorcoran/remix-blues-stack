@@ -1,5 +1,5 @@
 {
-  "name": "blues-stack-template",
+  "name": "remix-blues-stack",
   "private": true,
   "sideEffects": false,
   "scripts": {
@@ -13,6 +13,7 @@
     "dev:remix": "cross-env NODE_ENV=development remix watch",
     "dev:server": "cross-env NODE_ENV=development node --inspect --require ./node_modules/dotenv/config --require ./mocks ./build/server.js",
     "docker": "docker-compose up -d",
+    "fly": "/project/home/joecorcoran/.fly/bin/flyctl",
     "format": "prettier --write .",
     "generate:css": "tailwindcss -o ./app/styles/tailwind.css",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
