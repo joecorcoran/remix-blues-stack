@@ -35,6 +35,7 @@
     "/postgres-data"
   ],
   "dependencies": {
+    "@atproto/api": "^0.2.7",
     "@isaacs/express-prometheus-middleware": "^1.2.1",
     "@prisma/client": "^4.11.0",
     "@remix-run/express": "*",
